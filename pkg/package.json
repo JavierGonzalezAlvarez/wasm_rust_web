@@ -1,0 +1,12 @@
+{
+  "name": "input",
+  "version": "0.1.0",
+  "files": [
+    "input_bg.wasm",
+    "input.js",
+    "input.d.ts"
+  ],
+  "module": "input.js",
+  "types": "input.d.ts",
+  "sideEffects": false
+}
