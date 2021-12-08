@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>hello</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> 
+  </head>
+  <body>
+    <h2>Post data from js to rust </h2>                
+    <label for="get_date">Date: </label>
+    <input id="insert_date" type="text" name="get_date"></input>        
+    </br>
+    <label for="get_date">Sum: </label>
+    <input id="sum" type="text" name="sum"></input>    
+    </br></br>
+    <input type="button" value="Refresh" style="padding: 10px 15px" onclick="refresh()">    
+    </input>
+
+    <script>        
+      function refresh() {        
+        //loading page keeping values
+        window.location.reload(false);
+      }
+    </script>
+
+    <script>        
+        $(function(){
+            $("#insert_date").datepicker({
+                dateFormat: "dd/mm/yy"
+            });
+        });   
+    </script>
+    
+    <script type="module">      
+      import init, {greet, add, date} from "./pkg/input.js";      
+      init()
+        .then(() => {
+          //calling fn greet from rust
+          greet("javier")          
+          //calling fn add from rust  
+          console.log("sum is: ", add(2, 2))
+          //calling fn date from rust                             
+          let buttonOne = document.getElementsByName("get_date")[0].value;                    
+          console.log(date(buttonOne))   
+          //we assign fn add comming from rust to a input
+          let sum = add(30, 10)
+          document.getElementsByName("sum")[0].value =  sum;          
+        });
+      </script>    
+      
+  </body>
+</html>

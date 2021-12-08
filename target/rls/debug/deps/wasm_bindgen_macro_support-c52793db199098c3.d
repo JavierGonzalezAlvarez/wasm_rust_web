@@ -1,0 +1,8 @@
+/home/javier/Escritorio/Proyectos/rust/rust_wasm/input/target/rls/debug/deps/wasm_bindgen_macro_support-c52793db199098c3.rmeta: /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-macro-support-0.2.78/src/lib.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-macro-support-0.2.78/src/parser.rs
+
+/home/javier/Escritorio/Proyectos/rust/rust_wasm/input/target/rls/debug/deps/libwasm_bindgen_macro_support-c52793db199098c3.rlib: /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-macro-support-0.2.78/src/lib.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-macro-support-0.2.78/src/parser.rs
+
+/home/javier/Escritorio/Proyectos/rust/rust_wasm/input/target/rls/debug/deps/wasm_bindgen_macro_support-c52793db199098c3.d: /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-macro-support-0.2.78/src/lib.rs /home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-macro-support-0.2.78/src/parser.rs
+
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-macro-support-0.2.78/src/lib.rs:
+/home/javier/.cargo/registry/src/github.com-1ecc6299db9ec823/wasm-bindgen-macro-support-0.2.78/src/parser.rs:
